@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.table {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#messages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    width: 90vw;
+    height: 250px;
+}
+
+.points {
+    padding: 0 !important;
+}
+
+#messages {
+    height: 120px;
+}
+
+#dealer-hand, #player-hand {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    overflow: scroll;
+}
+
+.hand {
+    display: flex;
+    align-items: center;
+}
+
+.hand img {
+    height: 95%;
+    width: auto;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+#betAmountLabel {
+    min-width: 130px;
+    text-align: center;
+}
+
+.player-status {
+    display: flex;
+    justify-content: space-between;
+}
+
+#player-wins, #player-losses {
+    align-self: flex-end;
+}
+
+button, span, label {
+    font-size: 1.5rem;
+}
+
+#dealer-hand {
+    margin-top: -2px;
+}
+
+#wager {
+    width: 70px;
+}
+
+#betAmount {
+    width: 120px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background-color: green;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+    background-color: green;
+}
